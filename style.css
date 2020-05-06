@@ -1,0 +1,124 @@
+body {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+    margin: 0 auto;
+    padding:0;
+    width: 100%;
+    background: #f6f6f6;
+    overflow: hidden;
+}
+
+#hero-section {
+  position: relative;
+}
+
+#hero-section img {
+  width: 100%;
+}
+
+
+header a {
+  margin-left: 15px;
+  color: #212529;
+}
+header a:hover {
+  color: darkgrey;
+}
+
+hover a:visited {
+  color: #212529;
+}
+
+h1 {
+    color: #5a5c5d;
+    font-weight: 300;
+    font-size: 38px;
+}
+
+#hero-p {
+  margin-top: 20px;
+  color: white;
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+
+h5 {
+  margin-top: 1rem;
+}
+
+#menu-icon {
+  width: 32px;
+}
+
+
+#icon-section {
+  padding: 3rem 0;
+}
+
+
+
+#recent-work {
+  margin-bottom: 4rem;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #292b2c;
+
+}
+
+
+
+/* Phone */
+@media (max-width: 767.98px)  {
+    nav,
+    #icon-section,
+    #recent-work,
+    #from-the-blog,
+    #last .row  {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    #hero-p {
+        left: 0;
+        right:0;
+        margin: auto;
+        font-size: 16px;
+    }
+
+    h1 {
+      font-size: 26px;
+    }
+
+    #menu-icon {
+      width: 20px;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991.98px)  {
+
+    #hero-p {
+        width: max-content !important;
+        left: 100px;
+        font-size: 18px;
+    }
+
+    h1 {
+      font-size: 32px;
+    }
+
+    #menu-icon {
+      width: 28px;
+    }
+}
